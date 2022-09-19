@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Raleway:wght@300;400;600&display=swap');
+
+:root{
+  --font-color: #2b2c34;
+  --background: #fffffe;
+  --highlight: #d9376e;
+  --text-font: 'Montserrat', sans-serif;
+  --header-font: 'Montserrat', sans-serif;
+  --subheader-font: 'Raleway', sans-serif;
+  --text-size: 1em;
+}
+
+body{
+  box-sizing: border-box;
+  font-family: var(--text-font);
+  font-size: var(--text-size);
+  
+}
