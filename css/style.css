@@ -211,3 +211,84 @@ th, td{
 }
 
 /* login page */
+.login-content{
+  height: 80vh;
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly; 
+}
+
+#login-form-container, #create-account-container {
+  margin-top: 90px;
+  width: 90%;
+}
+
+.login-content h2{
+  font-size: 2.5em;
+  line-height: 2.5em;
+}
+
+.form-label, .form-input{
+  display: block;
+  width: 80%;
+}
+
+.form-label{
+  font-weight: 600;
+  font-size: 0.9em;
+  margin-bottom: 10px;
+}
+
+.form-input {
+  height: 25px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 0px;
+  border: var(--border);
+}
+
+#login-btn, #create-acc-btn{
+  width: 80%;
+  height: 25px;
+  padding: 10px;
+  text-align: center;
+  line-height: 1.5em;
+  margin-top: 27px;
+  border: var(--border);
+}
+
+#login-btn{
+  color: var(--background);
+  background-color: var(--highlight);
+}
+
+#login-btn:hover, #create-acc-btn:hover{
+  transition: 1s;
+  filter:brightness(90%);
+  cursor:pointer;
+  transform: translateY(2px);
+}
+
+#create-account-container {
+  padding-left: 50px;
+  border-left: var(--border);
+}
+
+#create-acc-btn {
+  max-width: 400px;
+}
+
+#create-acc-btn:hover{
+  background-color: #d3d7dd;
+}
+
+#login-footer {
+  background-color: var(--background);
+  color: var(--font-color);
+  text-align: center;
+  margin-top: 25px;
+  padding-top: 25px;
+  border-top: var(--border);
+}
