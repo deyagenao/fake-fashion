@@ -7,6 +7,8 @@ const password = document.getElementById('password');
 const confirmPassword = document.getElementById('confirm-password');
 const submitAccountBtn = document.getElementById('submit-acc-btn');
 
+const formElements = [firstName, lastName, email, password, confirmPassword];
+
 const isValid = false;
 
 // Registration Validation Functions 
