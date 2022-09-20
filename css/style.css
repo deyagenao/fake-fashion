@@ -7,7 +7,6 @@
   --text-font: 'Montserrat', sans-serif;
   --text-size: 1em;
   --border: 1px solid #d3d7dd;
-  --button-border: 2px solid #2b2c34;
 }
 
 /* reset */
@@ -293,7 +292,7 @@ th, td{
   background-color: var(--background);
   color: var(--font-color);
   text-align: center;
-  margin-top: 25px;
+  margin: 25px 0;
   padding-top: 25px;
   border-top: var(--border);
 }
@@ -326,6 +325,7 @@ th, td{
   padding: 15px 10px;
   border-radius: 0;
   font-family: var(--text-font);
+  border: var(--border);
 }
 
 #marketing:active, #marketing:focus{

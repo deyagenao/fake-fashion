@@ -9,8 +9,6 @@ const submitAccountBtn = document.getElementById('submit-acc-btn');
 
 const formElements = [firstName, lastName, email, password, confirmPassword];
 
-const isValid = false;
-
 // Registration Validation Functions 
 const validateEmail = (email) =>{
   const re = /^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
@@ -74,9 +72,24 @@ const setSuccess = (element) => {
   element.classList.add('success');
 }
 
+const checkAllAreValid = (elementArr) => {
+  let isValid = false;
+  for(element of elementArr){
+    if(element.classList.contains('error')){
+      isValid = false;
+    } else{
+      isValid = true;
+    }
+  }
+  if(isValid) {
+    window.location.replace('index.html');
+  }
+}
+
 // Registration Event Listener
 submitAccountBtn.addEventListener('click', (event)=>{
   event.preventDefault();
   validateRegistration();
+  checkAllAreValid(formElements);
 })
 
