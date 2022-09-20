@@ -249,7 +249,7 @@ th, td{
   border: var(--border);
 }
 
-#login-btn, #create-acc-btn{
+#login-btn, #create-acc-btn, #submit-acc-btn{
   width: 80%;
   height: 25px;
   padding: 10px;
@@ -260,18 +260,18 @@ th, td{
   border: var(--border);
 }
 
-#login-btn{
+#login-btn, #submit-acc-btn{
   color: var(--background);
   background-color: var(--highlight);
 }
 
-#login-btn:hover, #create-acc-btn:hover{
+#login-btn:hover, #create-acc-btn:hover, #submit-acc-btn:hover{
   transition: 1s;
   cursor:pointer;
   transform: translateY(2px);
 }
 
-#login-btn:hover{
+#login-btn:hover, #submit-acc-btn:hover{
   color: var(--highlight);
   background-color: var(--background);
   border: 1px solid #d9376e;
@@ -322,4 +322,18 @@ th, td{
   align-items: center;
 }
 
+/* Form Validation */
+.success {
+  border: 1px solid #2BC710;
+}
 
+.error {
+  border: 1px solid #C52E0F;
+}
+
+.error-text{
+  color: #C52E0F;
+  font-size: 0.75em;
+  text-align: left;
+  margin-bottom: 10px;
+}
