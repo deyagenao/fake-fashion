@@ -1,6 +1,7 @@
 # FAKE FASHION
 ### About
 Fake Fashion is the front to a fake e-commerce website. It currently includes three static pages: the home page, a login page and a register page. The register page validates user input before redirecting users to the home page. 
+View the website live here: https://deyaniragenao.com/fake-fashion/ 
 
 ### Technologies Used
 This application is completely front-end based. The code is written in HTML, CSS, and Vanilla JS. 
