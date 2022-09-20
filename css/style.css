@@ -254,6 +254,7 @@ th, td{
   height: 25px;
   padding: 10px;
   text-align: center;
+  font-weight: 600;
   line-height: 1.5em;
   margin-top: 27px;
   border: var(--border);
@@ -266,9 +267,14 @@ th, td{
 
 #login-btn:hover, #create-acc-btn:hover{
   transition: 1s;
-  filter:brightness(90%);
   cursor:pointer;
   transform: translateY(2px);
+}
+
+#login-btn:hover{
+  color: var(--highlight);
+  background-color: var(--background);
+  border: 1px solid #d9376e;
 }
 
 #create-account-container {
@@ -282,9 +288,10 @@ th, td{
 
 #create-acc-btn:hover{
   background-color: #d3d7dd;
+  filter:brightness(90%);
 }
 
-#login-footer {
+#account-footer {
   background-color: var(--background);
   color: var(--font-color);
   text-align: center;
@@ -292,3 +299,27 @@ th, td{
   padding-top: 25px;
   border-top: var(--border);
 }
+
+/* Register Account Page */
+#register-form-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#register-form-container h2{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 2em;
+  line-height: 2em;
+  font-weight: 600;
+}
+
+#register{
+  width: 680px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
