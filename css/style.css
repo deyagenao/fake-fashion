@@ -1,12 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Raleway:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700');
 
 :root{
   --font-color: #2b2c34;
   --background: #fffffe;
   --highlight: #d9376e;
   --text-font: 'Montserrat', sans-serif;
-  --header-font: 'Montserrat', sans-serif;
-  --subheader-font: 'Raleway', sans-serif;
   --text-size: 1em;
   --border: 1px solid #d3d7dd;
   --button-border: 2px solid #2b2c34;
@@ -322,6 +320,19 @@ th, td{
   align-items: center;
 }
 
+#marketing {
+  width: 83%;
+  height: 50px;
+  padding: 15px 10px;
+  border-radius: 0;
+  font-family: var(--text-font);
+}
+
+#marketing:active, #marketing:focus{
+  border-color:#d9376e;
+  border-radius: 0;
+}
+
 /* Form Validation */
 .success {
   border: 1px solid #2BC710;
@@ -334,6 +345,6 @@ th, td{
 .error-text{
   color: #C52E0F;
   font-size: 0.75em;
-  text-align: left;
+  font-weight: 600;
   margin-bottom: 10px;
 }

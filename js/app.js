@@ -77,3 +77,4 @@ submitAccountBtn.addEventListener('click', (event)=>{
   event.preventDefault();
   validateRegistration();
 })
+
