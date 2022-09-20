@@ -5,6 +5,11 @@ Fake Fashion is the front to a fake e-commerce website. It currently includes th
 ### Technologies Used
 This application is completely front-end based. The code is written in HTML, CSS, and Vanilla JS. 
 
+### In Progress
+- Products page 
+- Saving users locally using cookies
+- Validate sign in
+
 ### Credits 
 - Main Page Images: 
 https://unsplash.com/photos/TS--uNw-JqE?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
